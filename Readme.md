@@ -8,7 +8,7 @@ Some useful react components.
 
 ### Install
 ```
-  $ yarn install
+  $ yarn install react-utl
 ```
 
 ### Development
