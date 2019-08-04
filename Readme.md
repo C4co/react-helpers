@@ -6,14 +6,14 @@
 
 Some useful react components.
 
+### Install
+```
+  $ yarn install
+```
+
 ### Development
 
-Install
-```
-  $ yarn test
-```
-
-Tests
+test
 ```
   $ yarn test
 ```
