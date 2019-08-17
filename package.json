@@ -13,24 +13,24 @@
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^24.8.0",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
-    "coveralls": "^3.0.5",
+    "coveralls": "^3.0.6",
     "path": "^0.12.7",
-    "react": "^16.8.6",
+    "react": "^16.9.0",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.8.6",
-    "webpack": "^4.39.1",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6"
   },
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "jest": "^24.8.0",
-    "react-test-renderer": "^16.8.6"
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.9.0"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   }
 }
