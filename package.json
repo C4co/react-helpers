@@ -1,12 +1,12 @@
 {
   "name": "react-utl",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./lib/index.js",
   "author": "Carlos Costa",
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "build": "parcel build ./src/index.js --out-dir=lib --no-source-maps"
+    "build": "webpack"
   },
   "dependencies": {
     "@babel/core": "^7.5.5",
@@ -16,7 +16,6 @@
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "coveralls": "^3.0.5",
-    "parcel": "^1.12.3",
     "path": "^0.12.7",
     "react": "^16.8.6",
     "react-addons-test-utils": "^15.6.2",
