@@ -16,7 +16,7 @@ export class LazyImage extends Component {
     const item = this.myRef.current
 
     const action = () => {
-      if (this.isInViewport(item)) {
+      if (isInViewport(item)) {
         item.src = this.props.source
         item.style.opacity = "1"
 
