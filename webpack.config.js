@@ -6,10 +6,10 @@ module.exports = {
   output: {
     path: path.resolve("lib"),
     filename: "index.js",
-    library: "react-utl",    // very important line
-    libraryTarget: 'umd',    // very important line
-    umdNamedDefine: true,     // very important line
-    globalObject: 'this'
+    library: "react-utl",
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
+    globalObject: 'this' // server side render
   },
   module: {
     rules: [
