@@ -1,6 +1,6 @@
 {
   "name": "react-utl",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "./lib/index.js",
   "author": "Carlos Costa",
   "license": "MIT",
