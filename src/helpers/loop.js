@@ -10,7 +10,7 @@ const Each = props => {
     <>
       {props.items.map((item, index, arr) => {
         return (
-          <React.Fragment key={item}>
+          <React.Fragment>
             {props.children(item, index, arr)}
           </React.Fragment>
         )
@@ -33,7 +33,7 @@ const Filter = props => {
     <>
       {filtered.map((item, index, arr) => {
         return (
-          <React.Fragment key={item}>
+          <React.Fragment>
             {props.children(item, index, arr)}
           </React.Fragment>
         )
