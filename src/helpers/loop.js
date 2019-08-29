@@ -1,5 +1,9 @@
 import React from "react"
 
+function ID() {
+  return '_' + Math.random().toString(36).substr(2, 9);
+}
+
 /*
   name: Each
   @items -> array - list of elements
@@ -10,7 +14,7 @@ const Each = props => {
     <>
       {props.items.map((item, index, arr) => {
         return (
-          <React.Fragment>
+          <React.Fragment key={ID()}>
             {props.children(item, index, arr)}
           </React.Fragment>
         )
@@ -33,7 +37,7 @@ const Filter = props => {
     <>
       {filtered.map((item, index, arr) => {
         return (
-          <React.Fragment>
+          <React.Fragment key={ID()}>
             {props.children(item, index, arr)}
           </React.Fragment>
         )
