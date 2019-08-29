@@ -18,7 +18,6 @@ export class LazyImage extends Component {
     const action = () => {
       if (isInViewport(item)) {
         item.src = this.props.source
-        item.style.opacity = "1"
 
         window.removeEventListener("scroll", action)
         window.removeEventListener("resize", action)
@@ -42,8 +41,6 @@ export class LazyImage extends Component {
         ref={this.myRef}
         src={this.props.loader}
         style={{
-          opacity: "0.3",
-          transition: "all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s",
           ...this.props.style,
         }}
         alt={this.props.alt || ""}
