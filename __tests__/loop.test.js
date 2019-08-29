@@ -8,7 +8,9 @@ describe("Loop component", () => {
     const each = mount(
       <Each items={['first', 'second', 'third']}>
         {(item, index) => (
-          <> <h1>{index}->{item}</h1> </>
+          <h1>
+            {index}->{item}
+          </h1>
         )}
       </Each>
     )
@@ -23,7 +25,9 @@ describe("Loop component", () => {
     const filter = mount(
       <Filter items={[1, 2, 3]} if={item => item > 1}>
         {(item, index) => (
-          <> <h1>{index}->{item}</h1> </>
+          <h1>
+            {index}->{item}
+          </h1>
         )}
       </Filter>
     )
