@@ -4,8 +4,13 @@ __tests__
 jest.config.js
 jest.setup.js
 .circleci
+.storybook
 .gitignore
+.prettierrc
 webpack.config.js
+storybook-static
+stories
+coverage
 
 # Logs
 logs

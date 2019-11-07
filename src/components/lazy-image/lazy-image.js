@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { isInViewport } from "../dom"
+import { isInViewport } from "../../dom"
 
 /*
   name: LazyImage
