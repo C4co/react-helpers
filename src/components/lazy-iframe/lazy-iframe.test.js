@@ -1,5 +1,5 @@
 import { render } from "enzyme"
-import { LazyIframe } from "../.."
+import { LazyIframe } from "./lazy-iframe.item"
 import React from "react"
 
 describe("LazyIframe", () => {

@@ -1,5 +1,5 @@
 import React from "react"
-import { Show, Hide } from "./display"
+import { Show, Hide } from "./display.item"
 
 function Example(){
   return(

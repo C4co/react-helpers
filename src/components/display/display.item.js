@@ -12,10 +12,6 @@ const Show = props => {
   return null
 }
 
-/*
-  name: Hide
-  @if -> boolean - condition to hide or not the component.
-*/
 const Hide = props => {
   if (props.if) {
     return null

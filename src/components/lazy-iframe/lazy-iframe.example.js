@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { LazyIframe } from "./lazy-iframe"
+import { LazyIframe } from "./lazy-iframe.item"
 
 const EmbedContainer = styled.div`
   position: relative;

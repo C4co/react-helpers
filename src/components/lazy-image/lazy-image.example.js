@@ -1,5 +1,5 @@
 import React from "react"
-import {LazyImage} from "./lazy-image"
+import { LazyImage } from "./lazy-image.item"
 import styled from "styled-components"
 
 const Wrapper = styled.section`

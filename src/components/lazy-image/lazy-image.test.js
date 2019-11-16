@@ -1,5 +1,5 @@
 import { render } from "enzyme"
-import { LazyImage } from "../.."
+import { LazyImage } from "./lazy-image.item"
 import React from "react"
 
 describe("LazyImage component", () => {
