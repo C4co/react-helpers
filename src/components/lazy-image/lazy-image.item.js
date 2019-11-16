@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { useEffect, useRef } from "react"
 import { isInViewport } from "../../dom"
 
 /*
@@ -6,20 +6,16 @@ import { isInViewport } from "../../dom"
   @loader -> string - image url to show at the first time
   @source -> string - image url to show when appear in view port
 */
-export class LazyImage extends Component {
-  constructor(props) {
-    super(props)
-    this.myRef = React.createRef()
-  }
 
-  reload(){
-    const item = this.myRef.current
+export function LazyImage(props){
+  const imageRef = useRef(null)
 
-    const action = () => {
-      console.log(isInViewport(item))
+  function reload(){
+    const item = imageRef.current
 
+    function action(){
       if (isInViewport(item)) {
-        item.src = this.props.source
+        item.src = props.source
 
         window.removeEventListener("scroll", action)
         window.removeEventListener("resize", action)
@@ -32,21 +28,19 @@ export class LazyImage extends Component {
     action()
   }
 
-  componentDidMount() {
-    this.reload()
-  }
+  useEffect(() => {
+    reload()
+  })
 
-  render() {
-    return (
-      <img
-        {...this.props}
-        ref={this.myRef}
-        src={this.props.loader}
-        style={{
-          ...this.props.style,
-        }}
-        alt={this.props.alt || ""}
-      />
-    )
-  }
+  return(
+    <img
+      {...props}
+      ref={imageRef}
+      src={props.loader}
+      style={{
+        ...props.style,
+      }}
+      alt={props.alt || ""}
+    />
+  )
 }

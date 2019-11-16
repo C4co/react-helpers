@@ -4,7 +4,7 @@ import React from "react"
   name: Show
   @if -> boolean - condition to show or not the component.
 */
-const Show = props => {
+function Show(props){
   if (props.if) {
     return <> {props.children} </>
   }
@@ -12,7 +12,7 @@ const Show = props => {
   return null
 }
 
-const Hide = props => {
+function Hide(props){
   if (props.if) {
     return null
   }

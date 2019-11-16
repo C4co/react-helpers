@@ -9,7 +9,7 @@ function ID() {
   @items -> array - list of elements
   @children -> function - callback passing all elements of array
 */
-const Each = props => {
+function Each(props){
   return (
     <>
       {props.items.map((item, index, arr) => {
@@ -28,7 +28,7 @@ const Each = props => {
   @items -> array - list of elements
   @children -> function - callback passing all elements filtered by condition.
 */
-const Filter = props => {
+function Filter(props){
   const filtered = props.items.filter((item, index, arr) =>
     props.if(item, index, arr)
   )

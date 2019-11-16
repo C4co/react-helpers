@@ -1,22 +1,19 @@
-import React, { Component } from "react"
+import React, { useRef, useEffect } from "react"
 import { isInViewport } from "../../dom"
 
 /*
   name: LazyIframe
   @source -> string - video url to when iframe is in viewport
 */
-export class LazyIframe extends Component {
-  constructor() {
-    super()
-    this.frame = React.createRef()
-  }
+export function LazyIframe(props){
+  const frame = useRef(null)
 
-  reload(){
-    const iframe = this.frame.current
+  function reload(){
+    const iframe = frame.current
 
     const action = () => {
       if (isInViewport(iframe)) {
-        iframe.src = this.props.source
+        iframe.src = props.source
 
         window.removeEventListener("scroll", action)
         window.removeEventListener("resize", action)
@@ -29,17 +26,16 @@ export class LazyIframe extends Component {
     action()
   }
 
-  componentDidMount() {
-    this.reload()
-  }
+  useEffect(() => {
+    reload()
+  })
 
-  render() {
-    return (
-      <iframe
-        ref={this.frame}
-        {...this.props}
-        title={this.props.title || ""}
-      ></iframe>
-    )
-  }
+  return(
+    <iframe
+      ref={frame}
+      {...props}
+      title={props.title || ""}
+    >
+    </iframe>
+  )
 }
