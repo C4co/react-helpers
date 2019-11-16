@@ -19,26 +19,27 @@
     "babel-loader": "^8.0.6",
     "coveralls": "^3.0.7",
     "path": "^0.12.7",
-    "react": "^16.11.0",
+    "react": "^16.12.0",
     "react-addons-test-utils": "^15.6.2",
-    "react-dom": "^16.11.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^5.2.5",
-    "@storybook/addon-links": "^5.2.5",
-    "@storybook/addons": "^5.2.5",
-    "@storybook/react": "^5.2.5",
-    "@storybook/addon-notes": "^5.2.5",
-    "storybook-readme": "^5.0.8",
+    "@storybook/addon-actions": "^5.2.6",
+    "@storybook/addon-links": "^5.2.6",
+    "@storybook/addon-notes": "^5.2.6",
+    "@storybook/addons": "^5.2.6",
+    "@storybook/react": "^5.2.6",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "jest": "^24.9.0",
-    "react-test-renderer": "^16.11.0"
+    "react-test-renderer": "^16.12.0",
+    "storybook-readme": "^5.0.8"
   },
   "peerDependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
