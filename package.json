@@ -1,6 +1,6 @@
 {
-  "name": "react-utl",
-  "version": "0.0.17",
+  "name": "@c4co/react-helpers",
+  "version": "0.0.1",
   "main": "./lib/index.js",
   "author": "Carlos Costa",
   "license": "MIT",
