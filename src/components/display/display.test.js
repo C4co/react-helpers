@@ -1,5 +1,5 @@
 import { mount } from "enzyme"
-import { Show, Hide } from "../src/"
+import { Show, Hide } from "./display"
 import React from "react"
 
 describe("Display components", () => {

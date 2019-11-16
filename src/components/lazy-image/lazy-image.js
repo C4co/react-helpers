@@ -16,6 +16,8 @@ export class LazyImage extends Component {
     const item = this.myRef.current
 
     const action = () => {
+      console.log(isInViewport(item))
+
       if (isInViewport(item)) {
         item.src = this.props.source
 

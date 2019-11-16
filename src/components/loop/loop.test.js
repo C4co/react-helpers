@@ -1,5 +1,5 @@
 import { mount } from "enzyme"
-import { Each, Filter } from "../src/"
+import { Each, Filter } from "../.."
 import React from "react"
 
 describe("Loop component", () => {

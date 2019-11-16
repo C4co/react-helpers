@@ -1,5 +1,3 @@
-## React utl
+## Dev
 
-```
-  yarn install react-utl
-```
+Github 👉 [React UTL](https://github.com/C4co/react-utl)
