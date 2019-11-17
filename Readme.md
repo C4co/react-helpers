@@ -15,7 +15,7 @@ Some useful react components.
 
 #### Install
 ```
-  $ npm install @cn/react-helpers
+  $ yarn add @cn/react-helpers
 ```
 
 #### Development
