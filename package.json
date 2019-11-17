@@ -4,6 +4,7 @@
   "main": "./lib/index.js",
   "author": "Carlos Costa",
   "license": "MIT",
+  "description": "Some useful react components.",
   "scripts": {
     "test": "jest",
     "build": "webpack",
@@ -41,5 +42,20 @@
   "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C4co/react-helpers.git"
+  },
+  "keywords": [
+    "helpers",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/C4co/react-helpers/issues"
+  },
+  "homepage": "https://github.com/C4co/react-helpers#readme"
 }
