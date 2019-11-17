@@ -4,7 +4,7 @@ Just load an iframe when it appear in view port.
 
 #### Usage
 ```jsx
-  import { LazyIframe } from "@cn/react-helpers"
+  import { LazyIframe } from "cn-react-helpers"
 ```
 
 #### Example:

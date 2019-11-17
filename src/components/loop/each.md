@@ -4,7 +4,7 @@ Iteration over multiple itens.
 
 #### Usage
 ```jsx
-  import { Each } from "@cn/react-helpers"
+  import { Each } from "cn-react-helpers"
 ```
 
 #### Example:

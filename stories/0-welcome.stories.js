@@ -51,7 +51,7 @@ export const welcome = () => (
       Some useful react components
     </Description>
     <Install>
-      yarn add @cn/react-helpers
+      yarn add cn-react-helpers
     </Install>
   </Wrapper>
 )
