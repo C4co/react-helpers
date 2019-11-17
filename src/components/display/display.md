@@ -4,7 +4,7 @@ Show or hide a component based in a condition. The component hidden don't is ren
 
 #### Usage
 ```jsx
-  import { Show, Hide } from "react-utl"
+  import { Show, Hide } from "@cn/react-helpers"
 ```
 
 #### Example:

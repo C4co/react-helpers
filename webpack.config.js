@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve("lib"),
     filename: "index.js",
-    library: "react-utl",
+    library: "@cn/react-helpers",
     libraryTarget: 'umd',
     umdNamedDefine: true,
     globalObject: 'this' // server side render

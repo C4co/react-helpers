@@ -4,7 +4,7 @@ Just load a image when it appear in view port.
 
 #### Usage
 ```jsx
-  import { LazyImage } from "react-utl"
+  import { LazyImage } from "@cn/react-helpers"
 ```
 
 #### Example:

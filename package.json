@@ -1,5 +1,5 @@
 {
-  "name": "@c4co/react-helpers",
+  "name": "@cn/react-helpers",
   "version": "0.0.1",
   "main": "./lib/index.js",
   "author": "Carlos Costa",

@@ -35,7 +35,8 @@ const Install = styled.div`
   font-size: 1.1em;
   width: 100%;
   color: #ffffff;
-  max-width: 250px;
+  border-radius: 200px;
+  max-width: 340px;
   margin: 0 auto;
 `
 
@@ -45,12 +46,12 @@ export default {
 
 export const welcome = () => (
   <Wrapper>
-    <Title> React UTL </Title>
+    <Title> React Helpers </Title>
     <Description>
       Some useful react components
     </Description>
     <Install>
-      yarn add react-utl
+      npm install @cn/react-helpers
     </Install>
   </Wrapper>
 )

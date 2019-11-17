@@ -4,7 +4,7 @@ Iteration over multiple itens and filter items based in a condition.
 
 #### Usage
 ```jsx
-  import { Filter } from "react-utl"
+  import { Filter } from "@cn/react-helpers"
 ```
 
 #### Example:
