@@ -1,6 +1,6 @@
 {
   "name": "cn-react-helpers",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "main": "./lib/index.js",
   "author": "Carlos Costa",
   "license": "MIT",
