@@ -15,6 +15,9 @@ import EachExample from "../src/components/loop/each.example"
 import FilterReadme from "../src/components/loop/filter.md"
 import FilterExample from "../src/components/loop/filter.example"
 
+import LimitTextReadme from "../src/components/type/limit-text.md"
+import { LimitTextExample } from "../src/components/type/type.example"
+
 export default {
   title: 'Components',
 }
@@ -62,4 +65,13 @@ export const Filter = () => (
 
 Filter.story = {
   parameters: {readme: {sidebar: FilterReadme}}
+}
+
+// Type
+export const LimitText = () => (
+  <LimitTextExample/>
+)
+
+LimitText.story = {
+  parameters: {readme: {sidebar: LimitTextReadme}}
 }
