@@ -3,6 +3,7 @@
 Show or hide a component based in a condition. The component hidden don't is rendered in DOM.
 
 #### Usage
+
 ```jsx
   import { Show, Hide } from "cn-react-helpers"
 ```

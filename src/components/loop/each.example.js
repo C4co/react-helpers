@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Each } from "./loop.item"
+import { Each } from "./loop.component"
 
 const Wrapper = styled.section`
   width: 100%;

@@ -1,5 +1,5 @@
 import { mount } from "enzyme"
-import { Each, Filter } from "./loop.item"
+import { Each, Filter } from "./loop.component"
 import React from "react"
 
 describe("Loop component", () => {

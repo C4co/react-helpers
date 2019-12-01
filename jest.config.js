@@ -4,7 +4,7 @@ module.exports = {
   collectCoverage: true,
   coverageReporters: ["lcov", "text"],
   collectCoverageFrom: [
-    "./src/components/**/*.item.js",
+    "./src/components/**/*.component.js",
     "!**/node_modules/**",
     "!**/vendor/**"
   ]
