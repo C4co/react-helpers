@@ -32,6 +32,7 @@ Test
 - [Lazy Image](https://react-helpers.netlify.com/?path=/story/components--lazy-image)
 - [Each](https://react-helpers.netlify.com/?path=/story/components--each)
 - [Filter](https://react-helpers.netlify.com/?path=/story/components--filter)
+- [Limit Text](https://react-helpers.netlify.com/?path=/story/components--limit-text)
 
 ---
 
