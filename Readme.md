@@ -182,6 +182,7 @@ Test
   }
   ```
   ```size``` - *number* - string length
+
   ```end``` - *string* - custom end of string
 </details>
 
