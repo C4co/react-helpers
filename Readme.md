@@ -7,8 +7,8 @@
 </h1>
 
 [![CircleCI](https://circleci.com/gh/C4co/react-helpers.svg?style=svg)](https://circleci.com/gh/C4co/react-helpers)
-[![Maintainability](https://api.codeclimate.com/v1/badges/cc1a28ae15bfa4714289/maintainability)](https://codeclimate.com/github/C4co/one-helpers/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/C4co/react-helpers/badge.svg?branch=master)](https://coveralls.io/github/C4co/react-helpers?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cc1a28ae15bfa4714289/maintainability)](https://codeclimate.com/github/C4co/one-helpers/maintainability)
 
 Some useful react components.
 
@@ -23,6 +23,42 @@ Test
 ```
   $ yarn test
 ```
+
+#### Components
+
+<details>
+  <summary> Show component </summary>
+
+  ```js
+  import { Show } from "cn-react-helpers"
+
+  function App(){
+    return (
+      <Show if={true}>
+        <h1> hello world! <h1/>
+      </Show>
+    )
+  }
+  ```
+  ```if``` - *boolean* - considition to show component
+</details>
+
+<details>
+  <summary> Hide component </summary>
+
+  ```js
+  import { Show } from "cn-react-helpers"
+
+  function App(){
+    return (
+      <Show if={true}>
+        <h1> hello world! <h1/>
+      </Show>
+    )
+  }
+  ```
+  ```if``` - *boolean* -  considition to hide component
+</details>
 
 #### License
 
