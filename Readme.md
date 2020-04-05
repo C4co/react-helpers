@@ -85,7 +85,7 @@ Test
   ```
   ```items``` - *array* - iterate items
 
-  ```chidren``` - *function(index, item, arr)* - returns items
+  ```children``` - *function(index, item, arr)* - returns items
 </details>
 
 ----
@@ -110,7 +110,7 @@ Test
   ```
   ```items``` - *array* - filtable elements
 
-  ```chidren``` - *function(index, item, arr)* - returns filtered elements
+  ```children``` - *function(index, item, arr)* - returns filtered elements
 </details>
 
 ----
@@ -191,4 +191,3 @@ Test
 ### License
 
 MIT © [C4co](https://github.com/C4co)
-
