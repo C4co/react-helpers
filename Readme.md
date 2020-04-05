@@ -12,7 +12,7 @@
 
 Some useful react components.
 
-#### Install
+### Install
 ```
   $ yarn add cn-react-helpers
 ```
