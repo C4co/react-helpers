@@ -19,6 +19,8 @@ Some useful react components.
 
 ### Development
 
+> Made with create-react-library
+
 Test
 ```
   $ yarn test
