@@ -27,7 +27,7 @@ Test
 ### Components
 
 <details>
-  <summary> Show component </summary>
+  <summary> Show </summary>
 
   ```js
   import { Show } from "cn-react-helpers"
@@ -47,7 +47,7 @@ Test
 ----
 
 <details>
-  <summary> Hide component </summary>
+  <summary> Hide </summary>
 
   ```js
   import { Show } from "cn-react-helpers"
@@ -66,7 +66,7 @@ Test
 ---
 
 <details>
-  <summary> Each component </summary>
+  <summary> Each </summary>
 
   ```js
   import { Each } from "cn-react-helpers"
@@ -91,7 +91,7 @@ Test
 ----
 
 <details>
-  <summary> Filte component </summary>
+  <summary> Filte </summary>
 
   ```js
   import { Filter } from "cn-react-helpers"
@@ -111,6 +111,78 @@ Test
   ```items``` - *array* - filtable elements
 
   ```chidren``` - *function(index, item, arr)* - returns filtered elements
+</details>
+
+----
+
+<details>
+  <summary> LazyImage </summary>
+
+  ```js
+  import { LazyImage } from "cn-react-helpers"
+
+  const image = require("./image.png")
+  const loader = require("./loader.png")
+
+  function App(){
+    return (
+      <LazyImage
+        style={{ width: "100%" }}
+        alt='image'
+        loader={loader}
+        source={image}
+      />
+    )
+  }
+  ```
+  ```loader``` - *image path* - show this image when main image is loading
+
+  ```show``` - *image path* - main image
+</details>
+
+----
+
+<details>
+  <summary> LazyIframe </summary>
+
+  ```js
+  import { LazyIframe } from "cn-react-helpers"
+
+  function App(){
+    return (
+      <LazyIframe
+        style={{
+          width: "100%",
+          border: "none",
+          background: "#1173DF"
+        }}
+        title='Vídeo promocional'
+        source='https://www.youtube.com/embed/OxIDLw0M-m0'
+      />
+    )
+  }
+  ```
+  ```souce``` - *url* - iframe content
+</details>
+
+----
+
+<details>
+  <summary> Truncate </summary>
+
+  ```js
+  import { Truncate } from "cn-react-helpers"
+
+  function App(){
+    return (
+      <Truncate size={3} end="...">
+        Hello world
+      </Truncate>
+    )
+  }
+  ```
+  ```size``` - *number* - string length
+  ```end``` - *string* - custom end of string
 </details>
 
 ### License
