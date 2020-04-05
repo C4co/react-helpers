@@ -139,7 +139,7 @@ Test
   ```
   ```loader``` - *image path* - show this image when main image is loading
 
-  ```show``` - *image path* - main image
+  ```source``` - *image path* - main image
 </details>
 
 ----
