@@ -185,6 +185,8 @@ Test
   ```end``` - *string* - custom end of string
 </details>
 
+----
+
 ### License
 
 MIT © [C4co](https://github.com/C4co)
