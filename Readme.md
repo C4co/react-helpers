@@ -17,14 +17,14 @@ Some useful react components.
   $ yarn add cn-react-helpers
 ```
 
-#### Development
+### Development
 
 Test
 ```
   $ yarn test
 ```
 
-#### Components
+### Components
 
 <details>
   <summary> Show component </summary>
@@ -43,6 +43,9 @@ Test
   ```if``` - *boolean* - considition to show component
 </details>
 
+
+----
+
 <details>
   <summary> Hide component </summary>
 
@@ -60,10 +63,57 @@ Test
   ```if``` - *boolean* -  considition to hide component
 </details>
 
-#### License
-
-MIT
-
 ---
 
-Carlos Costa | 2020
+<details>
+  <summary> Each component </summary>
+
+  ```js
+  import { Each } from "cn-react-helpers"
+
+  function App(){
+    return (
+      <Each items={["first", "second", "third"]}>
+        {(item, index) => (
+          <h1>
+            {index}-{item}
+          </h1>
+        )}
+      </Each>
+    )
+  }
+  ```
+  ```items``` - *array* - iterate items
+
+  ```chidren``` - *function(index, item, arr)* - returns items
+</details>
+
+----
+
+<details>
+  <summary> Filte component </summary>
+
+  ```js
+  import { Filter } from "cn-react-helpers"
+
+  function App(){
+    return (
+      <Filter items={[1, 2, 3]} if={item => item > 1}>
+        {(item, index) => (
+          <h1>
+            {index}-{item}
+          </h1>
+        )}
+      </Filter>
+    )
+  }
+  ```
+  ```items``` - *array* - filtable elements
+
+  ```chidren``` - *function(index, item, arr)* - returns filtered elements
+</details>
+
+### License
+
+MIT © [C4co](https://github.com/C4co)
+
