@@ -2,10 +2,7 @@
   "parser": "babel-eslint",
   "extends": [
     "standard",
-    "standard-react",
-    "plugin:prettier/recommended",
-    "prettier/standard",
-    "prettier/react"
+    "standard-react"
   ],
   "env": {
     "node": true
@@ -23,6 +20,7 @@
     }
   },
   "rules": {
+    "quotes": ["error", "double"],
     "space-before-function-paren": 0,
     "react/prop-types": 0,
     "react/jsx-handler-names": 0,

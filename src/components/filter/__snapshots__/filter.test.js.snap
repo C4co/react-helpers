@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter component Filter numbers 1`] = `
+<Filter
+  if={[Function]}
+  items={
+    Array [
+      1,
+      2,
+      3,
+    ]
+  }
+>
+  <h1>
+    0
+    -
+    2
+  </h1>
+  <h1>
+    1
+    -
+    3
+  </h1>
+</Filter>
+`;
+
+exports[`Filter component Filter strings 1`] = `
+<Filter
+  if={[Function]}
+  items={
+    Array [
+      "foo",
+      "fizz",
+      "fozz",
+    ]
+  }
+>
+  <h1>
+    foo
+  </h1>
+  <h1>
+    fozz
+  </h1>
+</Filter>
+`;

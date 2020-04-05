@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show component Check hidden 1`] = `
+<Show
+  if={false}
+/>
+`;
+
+exports[`Show component Check hidden 2`] = `
+<Show
+  if={null}
+/>
+`;
+
+exports[`Show component Check visibility 1`] = `
+<Show
+  if={true}
+>
+  <h1>
+    i am visible
+  </h1>
+</Show>
+`;
+
+exports[`Show component Check visibility 2`] = `
+<Show
+  if={true}
+>
+  <h1>
+    i am visible
+  </h1>
+</Show>
+`;

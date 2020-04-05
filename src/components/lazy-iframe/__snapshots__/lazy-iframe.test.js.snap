@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LazyIframe <LazyIframe> should render correctly 1`] = `
+<LazyIframe
+  source="https://www.youtube.com/embed/OxIDLw0M-m0"
+  style={
+    Object {
+      "background": "#1173DF",
+      "border": "none",
+      "width": "100%",
+    }
+  }
+  title="Vídeo promocional"
+>
+  <iframe
+    style={
+      Object {
+        "background": "#1173DF",
+        "border": "none",
+        "width": "100%",
+      }
+    }
+    title="Vídeo promocional"
+  />
+</LazyIframe>
+`;

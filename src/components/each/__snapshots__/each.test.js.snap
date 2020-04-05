@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Each component should iterate over each array item. 1`] = `
+<Each
+  items={
+    Array [
+      "first",
+      "second",
+      "third",
+    ]
+  }
+>
+  <h1>
+    0
+    -
+    first
+  </h1>
+  <h1>
+    1
+    -
+    second
+  </h1>
+  <h1>
+    2
+    -
+    third
+  </h1>
+</Each>
+`;

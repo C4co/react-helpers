@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LazyImage component Check loader image 1`] = `
+<LazyImage
+  alt="image"
+  loader="loader.png"
+  source="image.png"
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <img
+    alt="image"
+    src="loader.png"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+</LazyImage>
+`;
