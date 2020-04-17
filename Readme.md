@@ -54,13 +54,13 @@ Test
   <summary> Hide </summary>
 
   ```js
-  import { Show } from "cn-react-helpers"
+  import { Hide } from "cn-react-helpers"
 
   function App(){
     return (
-      <Show if={true}>
+      <Hide if={true}>
         <h1> hello world! <h1/>
-      </Show>
+      </Hide>
     )
   }
   ```
@@ -95,7 +95,7 @@ Test
 ----
 
 <details>
-  <summary> Filte </summary>
+  <summary> Filter </summary>
 
   ```js
   import { Filter } from "cn-react-helpers"
