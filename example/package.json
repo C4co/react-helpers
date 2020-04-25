@@ -1,13 +1,13 @@
 {
-  "name": "react-helpers-example",
-  "homepage": "https://C4co.github.io/react-helpers",
+  "name": "cn-react-helpers-example",
+  "homepage": "https://C4co.github.io/cn-react-helpers",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts",
-    "react-helpers": "link:.."
+    "cn-react-helpers": "link:.."
   },
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
