@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  React Helpers
+  CN React Helpers
 </h1>
 
 [![CircleCI](https://circleci.com/gh/C4co/react-helpers.svg?style=svg)](https://circleci.com/gh/C4co/react-helpers)
