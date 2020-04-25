@@ -7,10 +7,9 @@
 </h1>
 
 [![CircleCI](https://circleci.com/gh/C4co/cn-react-helpers.svg?style=svg)](https://circleci.com/gh/C4co/react-helpers)
-[![Coverage Status](https://coveralls.io/repos/github/C4co/react-helpers/badge.svg?branch=master)](https://coveralls.io/github/C4co/react-helpers?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/C4co/cn-react-helpers/badge.svg?branch=master)](https://coveralls.io/github/C4co/cn-react-helpers?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/35fba2716be7a4167258/maintainability)](https://codeclimate.com/github/C4co/cn-react-helpers/maintainability)
 ![GitHub](https://img.shields.io/github/license/c4co/react-helpers)
-
 
 Some useful react components.
 
