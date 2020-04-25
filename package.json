@@ -1,6 +1,6 @@
 {
   "name": "cn-react-helpers",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "Some useful react components",
   "author": "C4co",
   "license": "MIT",
@@ -68,14 +68,14 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/C4co/react-helpers.git"
+    "url": "git+https://github.com/C4co/cn-react-helpers.git"
   },
   "keywords": [
     "helpers",
     "react"
   ],
   "bugs": {
-    "url": "https://github.com/C4co/react-helpers/issues"
+    "url": "https://github.com/C4co/cn-react-helpers/issues"
   },
-  "homepage": "https://github.com/C4co/react-helpers#readme"
+  "homepage": "https://github.com/C4co/cn-react-helpers#readme"
 }
