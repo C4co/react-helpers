@@ -1,7 +1,10 @@
-import { ExampleComponent } from '.'
+import { Hide, Show, Each, Filter } from "./index"
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+describe("Index", () => {
+  test("Check component imports", () => {
+    expect(Hide).toBeTruthy()
+    expect(Show).toBeTruthy()
+    expect(Each).toBeTruthy()
+    expect(Filter).toBeTruthy()
   })
 })

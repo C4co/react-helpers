@@ -1,10 +1,11 @@
-import React from 'react'
-
-import { ExampleComponent } from 'cn-react-helpers'
-import 'cn-react-helpers/dist/index.css'
+import React from "react"
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      React Helpers
+    </div>
+  )
 }
 
 export default App
