@@ -35,7 +35,7 @@ Build
 ### Components
 
 <details>
-  <summary> Show </summary>
+  <summary> 👀 Show </summary>
 
   ```js
   import { Show } from "cn-react-helpers"
