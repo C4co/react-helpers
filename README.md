@@ -48,7 +48,7 @@ Build
     )
   }
   ```
-  ```if``` - *boolean* - considition to show component
+  ```if``` - *boolean* - condition to show the component
 </details>
 
 
@@ -68,7 +68,7 @@ Build
     )
   }
   ```
-  ```if``` - *boolean* -  considition to hide component
+  ```if``` - *boolean* - condition to hide the component
 </details>
 
 ---
