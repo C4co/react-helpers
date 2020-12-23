@@ -1,0 +1,22 @@
+*,
+*:after,
+*:before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  visibility: visible;
+  vertical-align: top;
+}
+
+html, body{
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  overflow-x: hidden;
+
+  @media(max-width: 800px){
+    font-size: 0.95rem;
+  }
+}
