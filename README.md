@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="react" src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_react_icon_158742.png" width="120" />
+  <img alt="react" src="blob:https://imgur.com/58981e1e-b3b9-47eb-8529-d17057e1739d" width="120" />
 </p>
 
 <h1 align="center">
