@@ -1,2 +1,0 @@
-(this["webpackJsonpcn-react-helpers-example"]=this["webpackJsonpcn-react-helpers-example"]||[]).push([[0],{3:function(e,n,t){e.exports=t(8)},8:function(e,n,t){"use strict";t.r(n);var r=t(0),c=t.n(r),a=t(2),l=function(){return c.a.createElement("div",null,"React Helpers")};t.n(a).a.render(c.a.createElement(l,null),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.f5fe9b50.chunk.js.map
