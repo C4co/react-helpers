@@ -5,6 +5,10 @@ export const MainTitle = styled.h1`
   font-size: 2.2em;
   text-align: center;
   font-weight: normal;
+
+  @media(max-width: 800px){
+    font-size: 1.9em;
+  }
 `
 
 export const Text = styled.p`
