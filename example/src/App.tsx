@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+
 import {
   Base,
   Center,
@@ -8,6 +9,7 @@ import {
   Title,
   Text
 } from "./components"
+
 import {
   ShowExample,
   HideExample,
@@ -17,43 +19,66 @@ import {
 } from "./examples"
 
 import LogoImage from "./logo.svg"
+import GithubImage from "./github.svg"
+
+const Logo = styled.img`
+  width: 60px;
+  display: block;
+  margin: 50px auto 25px auto;
+`
 
 const Header = styled.div`
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
+`
+
+const Github = styled.a`
+  display: block;
+  max-width: 280px;
+  margin: 0 auto 50px auto;
+`
+
+const GithubLogo = styled.img`
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 `
 
 const Element = styled.div`
   margin-bottom: 50px;
 `
 
-const Logo = styled.img`
-  width: 70px;
-  display: block;
-  margin: 50px auto 0 auto;
+const Install = styled.div`
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #262a3f;
+  text-align: center;
+  font-size: 1.5em;
+  color: #00ffff;
+
+  @media(max-width: 800px){
+    font-size: 1em;
+  }
 `
 
-const Install = styled.div`
-  margin-bottom: 80px;
-  padding: 20px;
-  font-size: 1.3em;
-  background-color: #262a3f;
-  color: #00ffff;
-  text-align: center;
+const Credits = styled.div`
+  margin-bottom: 30px;
 `
 
 export default function App(){
   return (
     <Base>
       <Center>
-
         <Logo src={LogoImage} />
 
         <Header>
-          <MainTitle> CN REACT HELPERS </MainTitle>
+          <MainTitle> React Helpers </MainTitle>
           <br/>
           <Text> Some useful react components </Text>
         </Header>
+
+        <Github target="_blank" href="https://github.com/C4co/cn-react-helpers">
+          <GithubLogo src={GithubImage} />
+        </Github>
 
         <Install>
           npm install cn-react-helpers
@@ -88,6 +113,10 @@ export default function App(){
           <br/>
           <Syntax code={TruncateExample} />
         </Element>
+
+        <Credits>
+          <Text> Designed and coded by Carlos Costa </Text>
+        </Credits>
       </Center>
     </Base>
   )

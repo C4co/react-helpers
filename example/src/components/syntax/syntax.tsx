@@ -16,6 +16,10 @@ const SyntaxCode = styled(Prism)`
   .react-syntax-highlighter-line-number{
     opacity: 0.5;
   }
+
+  @media(max-width: 800px){
+    font-size: 1em !important;
+  }
 `
 
 interface SyntaxProps {

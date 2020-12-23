@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Base = styled.div`
   min-height: 100vh;
   width: 100%;
-  background-color: #d03d3d;
+  background-color: #1f2334;
   padding: 20px;
 `
 
