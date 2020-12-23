@@ -24,7 +24,7 @@ import GithubImage from "./github.svg"
 const Logo = styled.img`
   width: 60px;
   display: block;
-  margin: 50px auto 25px auto;
+  margin: 25px auto 25px auto;
 `
 
 const Header = styled.div`
@@ -35,6 +35,10 @@ const Github = styled.a`
   display: block;
   max-width: 280px;
   margin: 0 auto 50px auto;
+
+  @media(max-width: 800px){
+    max-width: 230px;
+  }
 `
 
 const GithubLogo = styled.img`
