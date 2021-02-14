@@ -80,4 +80,15 @@ import { Truncate } from "cn-react-helpers"
 <Truncate size="3" end="...">
   Hello world!
 </Truncate>
+//Hel...
+
+<Truncate size="5" end="...">
+  Hello world!
+</Truncate>
+//Hello...
+
+<Truncate size="7" end="...">
+  Hello world!
+</Truncate>
+//Hello w...
 `
