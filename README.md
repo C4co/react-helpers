@@ -9,6 +9,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/35fba2716be7a4167258/maintainability)](https://codeclimate.com/github/C4co/cn-react-helpers/maintainability)
 [![Coverage Status](https://coveralls.io/repos/github/C4co/cn-react-helpers/badge.svg?branch=master&service=github)](https://coveralls.io/github/C4co/cn-react-helpers?branch=master)
 [![Build Status](https://www.travis-ci.com/C4co/cn-react-helpers.svg?branch=master)](https://www.travis-ci.com/C4co/cn-react-helpers)
+![npm](https://img.shields.io/npm/v/cn-react-helpers?color=green)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Some useful react utilities.
