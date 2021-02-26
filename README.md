@@ -15,7 +15,7 @@ Some useful react utilities.
 
 ### Install
 ```
-  $ yarn add cn-react-helpers
+  $ npm install cn-react-helpers
 ```
 
 ### Development
@@ -24,12 +24,12 @@ Some useful react utilities.
 
 Test
 ```
-  $ yarn test
+  $ npm test
 ```
 
 Build
 ```
-  $ yarn build
+  $ npm run build
 ```
 
 ### Components
