@@ -1,8 +1,4 @@
-<p align="center">
-  <img alt="react" src="https://i.imgur.com/DrE0cgt.png" width="100" />
-</p>
-
-<h1 align="center">
+<h1>
   CN React Helpers
 </h1>
 
